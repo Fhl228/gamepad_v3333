@@ -4,10 +4,10 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "gamepad_V3333": "github:fhl228/gamepad_v3333#29c1ac60e7cf828ee0a3ad7f24ec4e039f90012a"
     },
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md"
     ],
@@ -17,5 +17,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
